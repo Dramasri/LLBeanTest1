@@ -1,0 +1,177 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-19T09:23:56.609Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5223333305,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.launch()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "To click the outdoor equipment",
+        "description": "",
+        "id": "to-test-the-scenario-for-all-test-cases;to-click-the-outdoor-equipment",
+        "after": [
+          {
+            "result": {
+              "duration": 1243937648,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17615517906,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Launching the webpage",
+            "match": {
+              "location": "StepDef.launching_the_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2065429704,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click on the outdoor equipment",
+            "match": {
+              "location": "StepDef.click_on_the_outdoor_equipment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93260173,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Check with the assert",
+            "match": {
+              "location": "StepDef.check_with_the_assert()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-19T09:24:22.877Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4031972126,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.launch()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "To click the login",
+        "description": "",
+        "id": "to-test-the-scenario-for-all-test-cases;to-click-the-login",
+        "after": [
+          {
+            "result": {
+              "duration": 1188800253,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18862904771,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Check the login page",
+            "match": {
+              "location": "StepDef.check_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 169376283,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Click on the login button",
+            "match": {
+              "location": "StepDef.click_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.step.StepDef.check_with_the_assert_follows(StepDef.java:312)\r\n\tat ✽.Check with the assert follows(file:src/test/resources/c.feature:43)\r\n",
+              "duration": 174666555,
+              "status": "failed"
+            },
+            "line": 43,
+            "name": "Check with the assert follows",
+            "match": {
+              "location": "StepDef.check_with_the_assert_follows()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To test the scenario for all Test Cases",
+    "description": "",
+    "id": "to-test-the-scenario-for-all-test-cases",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/c.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
